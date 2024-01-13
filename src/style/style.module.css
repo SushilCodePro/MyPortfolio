@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color */
+    padding: 10px;
+  }
+  .navbar h1 {
+    cursor: pointer; /* Add a pointer cursor on hover to indicate interactivity */
+    margin: 0; /*Remove default margin for h1*/
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase text */
+    /* transition: color 0.3s ease-in-out; Smooth color transition on hover */
+  
+    /* Add more styling as needed */
+  }
+  .home{
+    display: flex;
+    justify-content:center
+    /* align-items: center; */
+  }
