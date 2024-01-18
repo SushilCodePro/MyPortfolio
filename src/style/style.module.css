@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333; /* Background color for the navbar */
+    background-color: #2f2d4e; /* Background color for the navbar */
     color: #fff; /* Text color */
     padding: 15px;
     box-shadow: 0px 2px 5px rgba(93, 190, 63, 0.2);
