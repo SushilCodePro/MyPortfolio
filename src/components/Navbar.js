@@ -1,19 +1,7 @@
+import { Link } from 'react-router-dom';
 import style from '../style/style.module.css'
 
 function Navbar({setStatus}) {
-  const handleDownload = () => {
-    // Replace with the actual GitHub raw content URL of your resume PDF
-    // const gitHubURL='https://github.com/SushilCodePro/ResumePDF/blob/main/Sushil_Resume_11_01.pdf'
-
-    const githubRawUrl = 'https://raw.githubusercontent.com/SushilCodePro/ResumePDF/main/Sushil_Resume_16_01.pdf';
-    // window.open(githubRawUrl, '_blank');
-    const downloadLink = document.createElement('a');
-    downloadLink.href = githubRawUrl;
-    downloadLink.download = `resume.pdf`;
-
-  //   // Triggering the click event to start the download
-    downloadLink.click();
-  };
 
   // const handleDownload = () => {
     // Replace the Google Drive file ID with your own file ID
@@ -33,10 +21,19 @@ function Navbar({setStatus}) {
   return (
       <>
         <div className={style.navbar}>
-          <h1 onClick={()=>setStatus('Home')}>Home</h1>
-          <h1 onClick={()=>setStatus('About')}>About</h1>
-          <h1 onClick={()=>setStatus('Items')}>Items</h1>
-          <button onClick={handleDownload}>Download Resume</button>
+          <div className={style.navLeft}>
+            <Link to={`/`} className={style.linktext}>Sushil's Portfolio</Link>
+          </div>
+          <div className={style.navRight}>
+            <Link to={`/`} className={style.linktext}>Home</Link>
+            <Link to={`/Projects`} className={style.linktext}>Projects</Link>
+            <Link to={`/Skills`} className={style.linktext}>Skill</Link>
+            <Link to={`/Experience`} className={style.linktext}>Experience</Link>
+            <Link to={`/Certificates`} className={style.linktext}>Certificate</Link>
+            <Link to={`/Education`} className={style.linktext}>Education</Link>
+            <Link to={`/Contact`} className={style.linktext}>Contact</Link>
+          </div>
+          
         </div>
       </>
     );

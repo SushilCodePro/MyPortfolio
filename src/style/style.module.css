@@ -4,20 +4,67 @@
     align-items: center;
     background-color: #333; /* Background color for the navbar */
     color: #fff; /* Text color */
-    padding: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(93, 190, 63, 0.2);
+    
   }
-  .navbar h1 {
+  
+  .navLeft{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+  }
+  .navRight{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .linktext{
+    text-decoration: none;
+    color: #fff;
     cursor: pointer; /* Add a pointer cursor on hover to indicate interactivity */
-    margin: 0; /*Remove default margin for h1*/
+    margin-left: 50px; /*Remove default margin for h1*/
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase; /* Uppercase text */
-    /* transition: color 0.3s ease-in-out; Smooth color transition on hover */
-  
-    /* Add more styling as needed */
+    /* text-transform: uppercase;  */
   }
+
   .home{
     display: flex;
-    justify-content:center
-    /* align-items: center; */
+    /* justify-content:center */
+    align-items: center;
+    background-color:#101025;
+    min-height: 100vh;
+    color: #fff;
+  }
+  .homeleft{
+    width: 50%;
+    /* margin-top: 160px; */
+  }
+  .homeleft h1{
+    margin: 70px;
+  }
+  .homeright{
+    width: 50%;
+    /* margin-top: 160px; */
+  }
+  .devpic{
+    width: auto;
+    height: 300px;
+    border: none;
+  }
+  .downloadButton {
+    background-color: #232154; /* Green background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px;
+    border-color:#fff; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer;
+    margin-left: 70px;
+  }
+  
+  .downloadButton:hover {
+    background-color: #45a049; /* Darker green on hover */
   }
