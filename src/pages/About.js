@@ -3,10 +3,10 @@ function About() {
     return (
       <>
         <div className={style.about}>
-          <h1>Let's know @Sushil</h1>
+          <h1>Let's know @Sushi gupta</h1>
         </div>
       </>
     );
-  }S
+  }
   
   export default About;
