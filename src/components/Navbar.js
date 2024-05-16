@@ -25,7 +25,7 @@ function Navbar({setStatus}) {
             <Link to={`/`} className={style.linktext}>Sushil's Portfolio</Link>
           </div>
           <div className={style.navRight}>
-            <Link to={`/`} className={style.linktext}>Home</Link>
+            {/* <Link to={`/`} className={style.linktext}>Home</Link> */}
             <Link to={`/Projects`} className={style.linktext}>Projects</Link>
             <Link to={`/Skills`} className={style.linktext}>Skill</Link>
             <Link to={`/Experience`} className={style.linktext}>Experience</Link>

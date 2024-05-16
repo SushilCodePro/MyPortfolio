@@ -1,12 +1,12 @@
 import style from '../style/style.module.css'
-function Contacts() {
+function Contact() {
     return (
       <>
         <div className={style.about}>
-          <h1>Contacts Page</h1>
+          <h1>Contact Page</h1>
         </div>
       </>
     );
   }
   
-  export default Contacts;
+  export default Contact;

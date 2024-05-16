@@ -1,33 +1,40 @@
+*{
+  box-sizing: border-box;
+}
 .navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 50px;
     background-color: #2f2d4e; /* Background color for the navbar */
     color: #fff; /* Text color */
-    padding: 15px;
+    padding: 5px;
     box-shadow: 0px 2px 5px rgba(93, 190, 63, 0.2);
-    
+    /* border: 2px solid red; */
+
   }
   
   .navLeft{
     display: flex;
-    justify-content: left;
     align-items: center;
-    width: 50%;
+    /* justify-content: space-around; */
+    margin-left: 20px;
+    flex: 1.5;
+    /* border: 2px solid rgb(0, 255, 72); */
   }
+  
   .navRight{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    align-items: center;
+    flex: 2;
+    /* border: 2px solid rgb(20, 168, 119); */
   }
   .linktext{
     text-decoration: none;
     color: #fff;
-    cursor: pointer; /* Add a pointer cursor on hover to indicate interactivity */
-    margin-left: 50px; /*Remove default margin for h1*/
+    cursor: pointer; 
     font-size: 18px;
     font-weight: bold;
-    /* text-transform: uppercase;  */
+    
   }
 
   .home{

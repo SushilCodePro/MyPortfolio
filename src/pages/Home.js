@@ -18,7 +18,7 @@ function Home() {
       <>
         <div className={style.home}>
           <div className={style.homeleft}>
-            <h1>Hi, My Name is SHL and I am a Full Stack Developer</h1>
+            <h1>Hi, My Name is Sushil and I am a Full Stack Developer</h1>
             <button onClick={handleDownload} className={style.downloadButton}>
               Download Resume
             </button>
