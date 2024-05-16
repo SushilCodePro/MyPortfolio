@@ -1,12 +1,12 @@
 import style from '../style/style.module.css'
-function Items() {
+function Projects() {
     return (
       <>
         <div className={style.items}>
-          <h1>Items Page</h1>
+          <h1>Projects Page</h1>
         </div>
       </>
     );
   }
   
-  export default Items;
+  export default Projects;

@@ -1,6 +1,6 @@
-import About from './pages/About';
+import Contacts from './pages/Contact';
 import Home from './pages/Home';
-import Items from './pages/Items';
+import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 // import { useState } from 'react';
 // import style from './style/style.module.css'
@@ -12,8 +12,8 @@ function App() {
         <Navbar/>
         <Routes>
             <Route  path='/' element={<Home/>}/>
-            <Route  path='/About' element={<About/>}/>
-            <Route  path='/Items' element={<Items/>}/>
+            <Route  path='/Contacts' element={<Contacts/>}/>
+            <Route  path='/Projects' element={<Projects/>}/>
         </Routes>
       </Router>
   );
