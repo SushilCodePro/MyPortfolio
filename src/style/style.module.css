@@ -75,3 +75,32 @@
   .downloadButton:hover {
     background-color: #45a049; /* Darker green on hover */
   }
+
+  .ProContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:#f4f4f9 ;
+    padding: 100px 10px;
+    /* border: 4px solid rgb(125, 216, 14); */
+  }
+  .Project{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(181, 173, 173);
+    border-radius: 5%;
+    border: 2px solid rgb(246, 243, 251);
+    padding: 10px;
+  }
+  .Project a{
+    margin: 0 10px 0 0;
+  }
+  .Project button{
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+  }
+  .projectButton:hover {
+    background-color: rgb(182, 223, 235);
+  }
